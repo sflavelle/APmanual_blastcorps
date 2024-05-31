@@ -1,0 +1,19 @@
+{
+    "Universe": {
+        "yaml_option": ["all_levels"]
+    },
+    "Time Attack": {
+        "yaml_option": ["time_attack"]
+    },
+    "Rankings": {
+        "yaml_option": ["ranksanity"]
+    },
+    "Rankings (Universe)": {
+        "yaml_option": ["ranksanity", "all_levels"],
+        "hidden": true
+    },
+    "Rankings (Time Attack)": {
+        "yaml_option": ["ranksanity", "all_levels", "time_attack"],
+        "hidden": true
+    }
+}

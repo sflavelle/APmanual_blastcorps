@@ -1,0 +1,151 @@
+[
+	{
+		"count":1,
+		"name": "Victory Objective Complete!",
+		"category": ["Key Items"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Bulldozer",
+		"category": ["Vehicles"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Backlash",
+		"category": ["Vehicles"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "J-Bomb",
+		"category": ["Vehicles"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Thunderfist",
+		"category": ["Vehicles"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Skyfall",
+		"category": ["Vehicles"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Cyclone Suit",
+		"category": ["Vehicles"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Ballista",
+		"category": ["Vehicles"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Police Car",
+		"category": ["Race Vehicles"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "A-Team Van",
+		"category": ["Race Vehicles"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Muscle Car",
+		"category": ["Race Vehicles"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "The American Dream",
+		"category": ["Race Vehicles"],
+		"progression": true
+	},
+	{
+		"count": "6",
+		"name": "Scientist",
+		"category": ["Key Items"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Train Operator Licence",
+		"category": ["Key Items"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Sideswipe",
+		"category": ["Vehicles"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Crane Operator Licence",
+		"category": ["Key Items"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Explosives Handling Licence",
+		"category": ["Key Items"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Boat Handling Licence",
+		"category": ["Key Items"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Space Operations Clearance",
+		"category": ["Key Items", "Gold Standard"],
+		"progression": true
+	},
+	{
+		"count":25,
+		"name": "Time to get movin'!",
+		"category": []
+	},
+	{
+		"count":25,
+		"name": "Can you keep this up?",
+		"category": []
+	},
+	{
+		"count": 25,
+		"name": "Is this such a good idea?",
+		"category": []
+	},
+	{
+		"count": 25,
+		"name": "You got the hang of it.",
+		"category": []
+	},
+	{
+		"count": 25,
+		"name": "You're just trying to impress me!",
+		"category": []
+	},
+	{
+		"count": 25,
+		"name": "You're just lucky!",
+		"category": []
+	},
+	{
+		"count": 25,
+		"name": "Try something else.",
+		"category": []
+	}
+]

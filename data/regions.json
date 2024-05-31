@@ -1,0 +1,245 @@
+{
+	"Simian Acres": 	{
+		"starting": true,
+		"connects_to": ["Sideswipe","J-Bomb","Backlash","Blackridge Works", "Shuttle Clear", "Rankings", "Win Condition"],
+		"requires": []
+	},
+	"Argent Towers": 	{
+		"connects_to": ["Orion Plaza","Marine Quarter","Ironstone Mine","Ebony Coast"],
+		"requires": "|Backlash|"
+	},
+	"Blackridge Works": 	{
+		"connects_to": ["Thunderfist","Argent Towers","Carrick Point","Echo Marches","Jade Plateau","Salvage Wharf"],
+		"requires": "{carrierCleared(Simian Acres)}"
+	},
+	"Carrick Point": 	{
+		"connects_to": ["Sleek Streets","Kipling Plant","Blackridge Works","Beeton Tracks","Tempest City"],
+		"requires": "|Sideswipe|"
+	},
+	"Havoc District": 	{
+		"connects_to": ["Skyfall","Cooter Creek","Twilight Foundry","Outland Farm"],
+		"requires": "|Skyfall| AND |J-Bomb|"
+	},
+	"Sideswipe": 	{
+		"connects_to": ["Carrick Point"],
+		"requires": "{carrierCleared(Simian Acres)} AND |Sideswipe|"
+	},
+	"J-Bomb": 	{
+		"connects_to": ["Havoc District"],
+		"requires": "{carrierCleared(Simian Acres)} AND |J-Bomb|"
+	},
+	"Backlash": 	{
+		"connects_to": ["Argent Towers"],
+		"requires": "|Backlash|"
+	},
+	"Sleek Streets": 	{
+		"connects_to": [],
+		"requires": "{locationChecked(Carrick Point - Communication Point - Carrier Path)}"
+	},
+	"Kipling Plant": 	{
+		"connects_to": [],
+		"requires": "|Ballista| AND {locationChecked(Carrick Point - Communication Point - Castle)}"
+	},
+	"Cooter Creek": 	{
+		"connects_to": ["Skerries"],
+		"requires": "{locationChecked(Havoc District - Communication Point - Cliffs)}"
+	},
+	"Twilight Foundry": 	{
+		"connects_to": [],
+		"requires": "{locationChecked(Havoc District - Communication Point - Island)}"
+	},
+	"Skyfall": 	{
+		"connects_to": ["Shuttle Gully"],
+		"requires": "|Skyfall|"
+	},
+	"Skerries": 	{
+		"connects_to": [],
+		"requires": "{locationChecked(Cooter Creek - Communication Point)}"
+	},
+	"Orion Plaza": 	{
+		"connects_to": [],
+		"requires": "|Explosives Handling Licence| AND {locationChecked(Argent Towers - Communication Point - Elevated Platform)}"
+	},
+	"Marine Quarter": 	{
+		"connects_to": [],
+		"requires": "{locationChecked(Argent Towers - Communication Point - Start)}"
+	},
+	"Beeton Tracks": 	{
+		"connects_to": ["Silver Junction","Ember Hamlet"],
+		"requires": "{carrierLevelsCleared(easy)} AND |Train Operator Licence| AND |Explosives Handling Licence|"
+	},
+	"Echo Marches": 	{
+		"connects_to": ["Moraine Chase","Mica Park","Angel City"],
+		"requires": "{carrierLevelsCleared(easy)} AND |J-Bomb| AND |Train Operator Licence| AND |Muscle Car| AND |The American Dream| AND |Boat Handling Licence|"
+	},
+	"Ironstone Mine": 	{
+		"connects_to": ["Diamond Sands"],
+		"requires": "{carrierLevelsCleared(easy)} AND |Sideswipe| AND |Thunderfist|"
+	},
+	"Ebony Coast": 	{
+		"connects_to": ["Morgan Hall","Obsidian Mile"],
+		"requires": "{carrierLevelsCleared(easy)} AND |Train Operator Licence|"
+	},
+	"Tempest City": 	{
+		"connects_to": ["Glander's Ranch","Glory Crossing"],
+		"requires": "{carrierLevelsCleared(easy)} AND |Ballista|"
+	},
+	"Outland Farm": 	{
+		"connects_to": ["Corvine Bluff","Geode Square","Crystal Rift","Glory Crossing"],
+		"requires": "{carrierLevelsCleared(easy)} AND |Backlash|"
+	},
+	"Shuttle Gully": 	{
+		"connects_to": ["Cobalt Quarry"],
+		"requires": "{carrierLevelsCleared(easy)} AND |Skyfall|"
+	},
+	"Thunderfist": 	{
+		"connects_to": ["Cromlech Court"],
+		"requires": "|Thunderfist|"
+	},
+	"Cromlech Court": 	{
+		"connects_to": ["Oyster Harbor"],
+		"requires": "|Thunderfist| AND {carrierLevelsCleared(easy)}"
+	},
+	"Jade Plateau": 	{
+		"connects_to": [],
+		"requires": "{locationChecked(Blackridge Works - Communication Point - Start)}"
+	},
+	"Salvage Wharf": 	{
+		"connects_to": [],
+		"requires": "{locationChecked(Blackridge Works - Communication Point - RDU Field)}"
+	},
+	"Moraine Chase": 	{
+		"connects_to": [],
+		"requires": "{locationChecked(Echo Marches - Communication Point - River)}"
+	},
+	"Mica Park": 	{
+		"connects_to": [],
+		"requires": "|Ballista| AND {locationChecked(Echo Marches - Communication Point - Spire Formation)}"
+	},
+	"Silver Junction": 	{
+		"connects_to": [],
+		"requires": "|Thunderfist| AND {locationChecked(Beeton Tracks - Communication Point - Next to Start)}"
+	},
+	"Glander's Ranch": 	{
+		"connects_to": [],
+		"requires": "{locationChecked(Tempest City - Communication Point - By Scientist)}"
+	},
+	"Cobalt Quarry": 	{
+		"connects_to": [],
+		"requires": "{locationChecked(Shuttle Gully - Communication Point)}"
+	},
+	"Corvine Bluff": 	{
+		"connects_to": ["Bison Ridge"],
+		"requires": "{locationChecked(Outland Farm - Communication Point - Behind Carrier Start)}"
+	},
+	"Bison Ridge": 	{
+		"connects_to": [],
+		"requires": "{locationChecked(Corvine Bluff - Communication Point)}"
+	},
+	"Geode Square": 	{
+		"connects_to": ["Lizard Island"],
+		"requires": "|J-Bomb| AND {locationChecked(Outland Farm - Communication Point - Starting Path Alcove)}"
+	},
+	"Morgan Hall": 	{
+		"connects_to": [],
+		"requires": "|Backlash| AND |Explosives Handling Licence| AND {locationChecked(Ebony Coast - Communication Point - Carrier Start)}"
+	},
+	"Diamond Sands": 	{
+		"connects_to": [],
+		"requires": "{carrierLevelsCleared(medium)} AND |Backlash|"
+	},
+	"Crystal Rift": 	{
+		"connects_to": ["Dark Heartland","Falchion Field"],
+		"requires": "{carrierLevelsCleared(medium)} AND |Train Operator Licence| AND |Skyfall|"
+	},
+	"Lizard Island": 	{
+		"connects_to": ["Saline Watch"],
+		"requires": "{locationChecked(Geode Square - Communication Point)}"
+	},
+	"Saline Watch": 	{
+		"connects_to": ["Dagger Pass"],
+		"requires": "{locationChecked(Lizard Island - Communication Point)}"
+	},
+	"Dagger Pass": 	{
+		"connects_to": ["Magma Peak"],
+		"requires": "{locationChecked(Saline Watch - Communication Point)}"
+	},
+	"Magma Peak": 	{
+		"connects_to": ["Baboon Catacomb"],
+		"requires": "{locationChecked(Dagger Pass - Communication Point)}"
+	},
+	"Baboon Catacomb": 	{
+		"connects_to": [],
+		"requires": "{locationChecked(Magma Peak - Communication Point)}"
+	},
+	"Dark Heartland": 	{
+		"connects_to": [],
+		"requires": "|Ballista| AND {locationChecked(Crystal Rift - Communication Point - Start)}"
+	},
+	"Falchion Field": 	{
+		"connects_to": [],
+		"requires": "|J-Bomb| AND {locationChecked(Crystal Rift - Communication Point - RDU Prize)}"
+	},
+	"Obsidian Mile": 	{
+		"connects_to": [],
+		"requires": "{carrierLevelsCleared(medium)} AND |Cyclone Suit|"
+	},
+	"Oyster Harbor": 	{
+		"connects_to": ["Gibbon's Gate"],
+		"requires": "{carrierLevelsCleared(medium)} AND |Crane Operator Licence| AND |Explosives Handling Licence| AND |Boat Handling Licence| AND |Ballista|"
+	},
+	"Gibbon's Gate": 	{
+		"connects_to": [],
+		"requires": "|Backlash| AND {locationChecked(Oyster Harbor - Communication Point)}"
+	},
+	"Angel City": 	{
+		"connects_to": [],
+		"requires": "{carrierLevelsCleared(medium)} AND |Backlash|"
+	},
+	"Ember Hamlet": 	{
+		"connects_to": [],
+		"requires": "{carrierLevelsCleared(medium)} AND |Ballista|"
+	},
+	"Glory Crossing": 	{
+		"connects_to": [],
+		"requires": "{carrierLevelsCleared(medium)} AND |Backlash|"
+	},
+	"Shuttle Clear": 	{
+		"connects_to": ["Moon"],
+		"requires": "{carrierLevelsCleared(all)} AND |Scientist:6| AND |Backlash| AND |Thunderfist|"
+	},
+	"Moon": 	{
+		"connects_to": ["Gold Standard"],
+		"requires": "|Backlash|"
+	},
+	"Gold Standard":	{
+		"connects_to": ["Mercury"],
+		"requires": ""
+	},
+	"Mercury": 	{
+		"connects_to": ["Venus"],
+		"requires": "|Bulldozer| OR |Skyfall| OR |Backlash|"
+	},
+	"Venus": 	{
+		"connects_to": ["Mars"],
+		"requires": "|Backlash|"
+	},
+	"Mars": 	{
+		"connects_to": ["Neptune"],
+		"requires": "|Backlash|"
+	},
+	"Neptune": 	{
+		"connects_to": ["Time Attack"],
+		"requires": "|Backlash|"
+	},
+	"Rankings":	{
+		"connects_to": [],
+		"requires": []
+	},
+	"Time Attack": {
+		"requires": ""
+	},
+	"Win Condition": {
+		"requires": "|Victory Objective Complete!|"
+	}
+}

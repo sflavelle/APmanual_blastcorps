@@ -1,0 +1,2910 @@
+[
+	{
+		"name": "Simian Acres - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Simian Acres",
+		"category": ["Easy Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Simian Acres - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Simian Acres",
+		"category": ["Easy Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Simian Acres - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Simian Acres",
+		"category": ["Easy Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Simian Acres - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Simian Acres",
+		"category": ["Easy Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Carrick Point - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Carrick Point",
+		"category": ["Easy Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Carrick Point - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Carrick Point",
+		"category": ["Easy Levels","Building Clears"],
+		"requires": "|Ballista|"
+	},
+	{
+		"name": "Carrick Point - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Carrick Point",
+		"category": ["Easy Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Carrick Point - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Carrick Point",
+		"category": ["Easy Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Carrick Point - Communication Point - Carrier Path",
+		"region": "Carrick Point",
+		"category": ["Easy Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Carrick Point - Communication Point - Castle",
+		"region": "Carrick Point",
+		"category": ["Easy Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Havoc District - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Havoc District",
+		"category": ["Easy Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Havoc District - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Havoc District",
+		"category": ["Easy Levels","Building Clears"],
+		"requires": "|Ballista| AND |J-Bomb|"
+	},
+	{
+		"name": "Havoc District - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Havoc District",
+		"category": ["Easy Levels","RDU Clears"],
+		"requires": "|J-Bomb| AND |Muscle Car|"
+	},
+	{
+		"name": "Havoc District - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Havoc District",
+		"category": ["Easy Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Havoc District - Communication Point - Island",
+		"region": "Havoc District",
+		"category": ["Easy Levels","Communication Points"],
+		"requires": "|J-Bomb|"
+	},
+	{
+		"name": "Havoc District - Communication Point - Cliffs",
+		"region": "Havoc District",
+		"category": ["Easy Levels","Communication Points"],
+		"requires": "|J-Bomb|"
+	},
+	{
+		"name": "Argent Towers - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Argent Towers",
+		"category": ["Easy Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Argent Towers - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Argent Towers",
+		"category": ["Easy Levels","Building Clears"],
+		"requires": "|Train Operator Licence| AND |Ballista| AND |J-Bomb| AND |Explosives Handling Licence|"
+	},
+	{
+		"name": "Argent Towers - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Argent Towers",
+		"category": ["Easy Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Argent Towers - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Argent Towers",
+		"category": ["Easy Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Argent Towers - Communication Point - Start",
+		"region": "Argent Towers",
+		"category": ["Easy Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Argent Towers - Communication Point - Elevated Platform",
+		"region": "Argent Towers",
+		"category": ["Easy Levels","Communication Points"],
+		"requires": "|J-Bomb| AND |Train Operator Licence| AND |Ballista| AND |Explosives Handling Licence|"
+	},
+	{
+		"name": "Argent Towers - Scientist",
+		"region": "Argent Towers",
+		"category": ["Easy Levels","Scientists"],
+		"requires": "|Train Operator Licence| AND |Explosives Handling Licence|",
+		"place_item": ["Scientist"]
+	},
+	{
+		"name": "Argent Towers - Police Car",
+		"region": "Argent Towers",
+		"category": ["Vehicle Unlocks"],
+		"requires": "|Train Operator Licence| AND |Explosives Handling Licence|"
+	},
+	{
+		"name": "Crystal Rift - A-Team Van",
+		"region": "Crystal Rift",
+		"category": ["Hard Levels","Vehicle Unlocks"],
+		"requires": []
+	},
+	{
+		"name": "Blackridge Works - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Blackridge Works",
+		"category": ["Easy Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Blackridge Works - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Blackridge Works",
+		"category": ["Easy Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Blackridge Works - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Blackridge Works",
+		"category": ["Easy Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Blackridge Works - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Blackridge Works",
+		"category": ["Easy Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Blackridge Works - Communication Point - Start",
+		"region": "Blackridge Works",
+		"category": ["Easy Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Blackridge Works - Communication Point - RDU Field",
+		"region": "Blackridge Works",
+		"category": ["Easy Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Beeton Tracks - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Beeton Tracks",
+		"category": ["Medium Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Beeton Tracks - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Beeton Tracks",
+		"category": ["Medium Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Beeton Tracks - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Beeton Tracks",
+		"category": ["Medium Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Beeton Tracks - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Beeton Tracks",
+		"category": ["Medium Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Cromlech Court - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Cromlech Court",
+		"category": ["Medium Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Cromlech Court - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Cromlech Court",
+		"category": ["Medium Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Cromlech Court - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Cromlech Court",
+		"category": ["Medium Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Cromlech Court - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Cromlech Court",
+		"category": ["Medium Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Ebony Coast - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Ebony Coast",
+		"category": ["Medium Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Ebony Coast - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Ebony Coast",
+		"category": ["Medium Levels","Building Clears"],
+		"requires": "|J-Bomb|"
+	},
+	{
+		"name": "Ebony Coast - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Ebony Coast",
+		"category": ["Medium Levels","RDU Clears"],
+		"requires": "|J-Bomb|"
+	},
+	{
+		"name": "Ebony Coast - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Ebony Coast",
+		"category": ["Medium Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Echo Marches - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Echo Marches",
+		"category": ["Medium Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Echo Marches - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Echo Marches",
+		"category": ["Medium Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Echo Marches - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Echo Marches",
+		"category": ["Medium Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Echo Marches - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Echo Marches",
+		"category": ["Medium Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Ironstone Mine - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Ironstone Mine",
+		"category": ["Medium Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Ironstone Mine - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Ironstone Mine",
+		"category": ["Medium Levels","Building Clears"],
+		"requires": "|Crane Operator Licence| "
+	},
+	{
+		"name": "Ironstone Mine - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Ironstone Mine",
+		"category": ["Medium Levels","RDU Clears"],
+		"requires": "|Crane Operator Licence| "
+	},
+	{
+		"name": "Ironstone Mine - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Ironstone Mine",
+		"category": ["Medium Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Outland Farm - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Outland Farm",
+		"category": ["Medium Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Outland Farm - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Outland Farm",
+		"category": ["Medium Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Outland Farm - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Outland Farm",
+		"category": ["Medium Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Outland Farm - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Outland Farm",
+		"category": ["Medium Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Shuttle Gully - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Shuttle Gully",
+		"category": ["Medium Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Shuttle Gully - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Shuttle Gully",
+		"category": ["Medium Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Shuttle Gully - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Shuttle Gully",
+		"category": ["Medium Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Shuttle Gully - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Shuttle Gully",
+		"category": ["Medium Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Tempest City - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Tempest City",
+		"category": ["Medium Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Tempest City - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Tempest City",
+		"category": ["Medium Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Tempest City - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Tempest City",
+		"category": ["Medium Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Tempest City - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Tempest City",
+		"category": ["Medium Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Angel City - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Angel City",
+		"category": ["Hard Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Angel City - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Angel City",
+		"category": ["Hard Levels","Building Clears"],
+		"requires": "|Train Operator Licence| AND |Ballista| AND |J-Bomb|"
+	},
+	{
+		"name": "Angel City - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Angel City",
+		"category": ["Hard Levels","RDU Clears"],
+		"requires": "|Train Operator Licence| AND |Police Car|"
+	},
+	{
+		"name": "Angel City - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Angel City",
+		"category": ["Hard Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Crystal Rift - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Crystal Rift",
+		"category": ["Hard Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Crystal Rift - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Crystal Rift",
+		"category": ["Hard Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Crystal Rift - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Crystal Rift",
+		"category": ["Hard Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Crystal Rift - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Crystal Rift",
+		"category": ["Hard Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Diamond Sands - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Diamond Sands",
+		"category": ["Hard Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Diamond Sands - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Diamond Sands",
+		"category": ["Hard Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Diamond Sands - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Diamond Sands",
+		"category": ["Hard Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Diamond Sands - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Diamond Sands",
+		"category": ["Hard Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Ember Hamlet - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Ember Hamlet",
+		"category": ["Hard Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Ember Hamlet - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Ember Hamlet",
+		"category": ["Hard Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Ember Hamlet - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Ember Hamlet",
+		"category": ["Hard Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Ember Hamlet - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Ember Hamlet",
+		"category": ["Hard Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Glory Crossing - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Glory Crossing",
+		"category": ["Hard Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Glory Crossing - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Glory Crossing",
+		"category": ["Hard Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Glory Crossing - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Glory Crossing",
+		"category": ["Hard Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Glory Crossing - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Glory Crossing",
+		"category": ["Hard Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Obsidian Mile - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Obsidian Mile",
+		"category": ["Hard Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Obsidian Mile - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Obsidian Mile",
+		"category": ["Hard Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Obsidian Mile - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Obsidian Mile",
+		"category": ["Hard Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Obsidian Mile - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Obsidian Mile",
+		"category": ["Hard Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Oyster Harbor - Carrier Clear",
+		"rankpoints": 3,
+		"region": "Oyster Harbor",
+		"category": ["Hard Levels","Carrier Clears"],
+		"requires": []
+	},
+	{
+		"name": "Oyster Harbor - Buildings Clear",
+		"rankpoints": 1,
+		"region": "Oyster Harbor",
+		"category": ["Hard Levels","Building Clears"],
+		"requires": []
+	},
+	{
+		"name": "Oyster Harbor - RDUs Clear",
+		"rankpoints": 1,
+		"region": "Oyster Harbor",
+		"category": ["Hard Levels","RDU Clears"],
+		"requires": []
+	},
+	{
+		"name": "Oyster Harbor - Survivors Clear",
+		"rankpoints": 1,
+		"region": "Oyster Harbor",
+		"category": ["Hard Levels","Survivor Clears"],
+		"requires": []
+	},
+	{
+		"name": "Simian Acres - American Dream",
+		"region": "Simian Acres",
+		"category": ["Easy Levels","Vehicle Unlocks"],
+		"requires": "|Train Operator Licence|"
+	},
+	{
+		"name": "Simian Acres - Train",
+		"region": "Simian Acres",
+		"category": ["Easy Levels","Vehicle Unlocks"],
+		"requires": "|Train Operator Licence|"
+	},
+	{
+		"name": "Havoc District - Muscle Car",
+		"region": "Havoc District",
+		"category": ["Easy Levels","Vehicle Unlocks"],
+		"requires": "|Muscle Car|"
+	},
+	{
+		"name": "Sideswipe - Bronze",
+		"rankpoints": 1,
+		"category": ["Training Levels","Mini-Games - Easy"],
+		"requires": [],
+		"region": "Sideswipe"
+	},
+	{
+		"name": "Sideswipe - Silver",
+		"rankpoints": 2,
+		"category": ["Training Levels","Mini-Games - Easy"],
+		"requires": [],
+		"region": "Sideswipe"
+	},
+	{
+		"name": "Sideswipe - Gold",
+		"rankpoints": 3,
+		"category": ["Training Levels","Mini-Games - Easy","Gold Standard"],
+		"requires": [],
+		"region": "Sideswipe"
+	},
+	{
+		"name": "Backlash - Bronze",
+		"rankpoints": 1,
+		"category": ["Training Levels","Mini-Games - Easy"],
+		"requires": [],
+		"region": "Backlash"
+	},
+	{
+		"name": "Backlash - Silver",
+		"rankpoints": 2,
+		"category": ["Training Levels","Mini-Games - Easy"],
+		"requires": [],
+		"region": "Backlash"
+	},
+	{
+		"name": "Backlash - Gold",
+		"rankpoints": 3,
+		"category": ["Training Levels","Mini-Games - Easy","Gold Standard"],
+		"requires": [],
+		"region": "Backlash"
+	},
+	{
+		"name": "J-Bomb - Bronze",
+		"rankpoints": 1,
+		"category": ["Training Levels","Mini-Games - Easy"],
+		"requires": [],
+		"region": "J-Bomb"
+	},
+	{
+		"name": "J-Bomb - Silver",
+		"rankpoints": 2,
+		"category": ["Training Levels","Mini-Games - Easy"],
+		"requires": [],
+		"region": "J-Bomb"
+	},
+	{
+		"name": "J-Bomb - Gold",
+		"rankpoints": 3,
+		"category": ["Training Levels","Mini-Games - Easy","Gold Standard"],
+		"requires": [],
+		"region": "J-Bomb"
+	},
+	{
+		"name": "Skyfall - Bronze",
+		"rankpoints": 1,
+		"category": ["Training Levels","Mini-Games - Medium"],
+		"requires": [],
+		"region": "Skyfall"
+	},
+	{
+		"name": "Skyfall - Silver",
+		"rankpoints": 2,
+		"category": ["Training Levels","Mini-Games - Medium"],
+		"requires": [],
+		"region": "Skyfall"
+	},
+	{
+		"name": "Skyfall - Gold",
+		"rankpoints": 3,
+		"category": ["Training Levels","Mini-Games - Medium","Gold Standard"],
+		"requires": [],
+		"region": "Skyfall"
+	},
+	{
+		"name": "Thunderfist - Bronze",
+		"rankpoints": 1,
+		"category": ["Training Levels","Mini-Games - Easy"],
+		"requires": [],
+		"region": "Thunderfist"
+	},
+	{
+		"name": "Thunderfist - Silver",
+		"rankpoints": 2,
+		"category": ["Training Levels","Mini-Games - Easy"],
+		"requires": [],
+		"region": "Thunderfist"
+	},
+	{
+		"name": "Thunderfist - Gold",
+		"rankpoints": 3,
+		"category": ["Training Levels","Mini-Games - Easy","Gold Standard"],
+		"requires": [],
+		"region": "Thunderfist"
+	},
+	{
+		"name": "Baboon Catacomb - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - J-Bomb Circle"],
+		"requires": [],
+		"region": "Baboon Catacomb"
+	},
+	{
+		"name": "Baboon Catacomb - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - J-Bomb Circle"],
+		"requires": [],
+		"region": "Baboon Catacomb"
+	},
+	{
+		"name": "Baboon Catacomb - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - J-Bomb Circle","Gold Standard"],
+		"requires": [],
+		"region": "Baboon Catacomb"
+	},
+	{
+		"name": "Bison Ridge - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Bison Ridge"
+	},
+	{
+		"name": "Bison Ridge - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Medium"],
+		"requires": "|Skyfall| OR |@Race Vehicles|",
+		"region": "Bison Ridge"
+	},
+	{
+		"name": "Bison Ridge - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Medium","Gold Standard"],
+		"requires": "|@Race Vehicles|",
+		"region": "Bison Ridge"
+	},
+	{
+		"name": "Cobalt Quarry - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Cobalt Quarry"
+	},
+	{
+		"name": "Cobalt Quarry - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Cobalt Quarry"
+	},
+	{
+		"name": "Cobalt Quarry - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Medium","Gold Standard"],
+		"requires": "|@Race Vehicles|",
+		"region": "Cobalt Quarry"
+	},
+	{
+		"name": "Cooter Creek - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Cooter Creek"
+	},
+	{
+		"name": "Cooter Creek - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Cooter Creek"
+	},
+	{
+		"name": "Cooter Creek - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Easy","Gold Standard"],
+		"requires": "|Muscle Car|",
+		"region": "Cooter Creek"
+	},
+	{
+		"name": "Cooter Creek - Communication Point",
+		"region": "Cooter Creek",
+		"category": ["Mini-Games - Easy","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Corvine Bluff - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Corvine Bluff"
+	},
+	{
+		"name": "Corvine Bluff - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Corvine Bluff"
+	},
+	{
+		"name": "Corvine Bluff - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Medium","Gold Standard"],
+		"requires": "|The American Dream| OR |Muscle Car|",
+		"region": "Corvine Bluff"
+	},
+	{
+		"name": "Dagger Pass - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Dagger Pass"
+	},
+	{
+		"name": "Dagger Pass - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Dagger Pass"
+	},
+	{
+		"name": "Dagger Pass - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Medium","Gold Standard"],
+		"requires": [],
+		"region": "Dagger Pass"
+	},
+	{
+		"name": "Dark Heartland - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Hard"],
+		"requires": [],
+		"region": "Dark Heartland"
+	},
+	{
+		"name": "Dark Heartland - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Hard"],
+		"requires": [],
+		"region": "Dark Heartland"
+	},
+	{
+		"name": "Dark Heartland - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Hard","Gold Standard"],
+		"requires": [],
+		"region": "Dark Heartland"
+	},
+	{
+		"name": "Falchion Field - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Hard"],
+		"requires": [],
+		"region": "Falchion Field"
+	},
+	{
+		"name": "Falchion Field - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Hard"],
+		"requires": [],
+		"region": "Falchion Field"
+	},
+	{
+		"name": "Falchion Field - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Hard","Gold Standard"],
+		"requires": [],
+		"region": "Falchion Field"
+	},
+	{
+		"name": "Geode Square - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - J-Bomb Circle"],
+		"requires": [],
+		"region": "Geode Square"
+	},
+	{
+		"name": "Geode Square - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - J-Bomb Circle"],
+		"requires": [],
+		"region": "Geode Square"
+	},
+	{
+		"name": "Geode Square - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - J-Bomb Circle","Gold Standard"],
+		"requires": [],
+		"region": "Geode Square"
+	},
+	{
+		"name": "Gibbon's Gate - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Hard"],
+		"requires": [],
+		"region": "Gibbon's Gate"
+	},
+	{
+		"name": "Gibbon's Gate - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Hard"],
+		"requires": [],
+		"region": "Gibbon's Gate"
+	},
+	{
+		"name": "Gibbon's Gate - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Hard","Gold Standard"],
+		"requires": [],
+		"region": "Gibbon's Gate"
+	},
+	{
+		"name": "Glander's Ranch - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Glander's Ranch"
+	},
+	{
+		"name": "Glander's Ranch - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Medium"],
+		"requires": "|@Race Vehicles|",
+		"region": "Glander's Ranch"
+	},
+	{
+		"name": "Glander's Ranch - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Medium","Gold Standard"],
+		"requires": "|The American Dream|",
+		"region": "Glander's Ranch"
+	},
+	{
+		"name": "Jade Plateau - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Jade Plateau"
+	},
+	{
+		"name": "Jade Plateau - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Jade Plateau"
+	},
+	{
+		"name": "Jade Plateau - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Easy","Gold Standard"],
+		"requires": [],
+		"region": "Jade Plateau"
+	},
+	{
+		"name": "Kipling Plant - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Kipling Plant"
+	},
+	{
+		"name": "Kipling Plant - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Kipling Plant"
+	},
+	{
+		"name": "Kipling Plant - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Easy","Gold Standard"],
+		"requires": [],
+		"region": "Kipling Plant"
+	},
+	{
+		"name": "Lizard Island - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - J-Bomb Circle"],
+		"requires": [],
+		"region": "Lizard Island"
+	},
+	{
+		"name": "Lizard Island - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - J-Bomb Circle"],
+		"requires": [],
+		"region": "Lizard Island"
+	},
+	{
+		"name": "Lizard Island - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - J-Bomb Circle","Gold Standard"],
+		"requires": [],
+		"region": "Lizard Island"
+	},
+	{
+		"name": "Magma Peak - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - J-Bomb Circle"],
+		"requires": [],
+		"region": "Magma Peak"
+	},
+	{
+		"name": "Magma Peak - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - J-Bomb Circle"],
+		"requires": [],
+		"region": "Magma Peak"
+	},
+	{
+		"name": "Magma Peak - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - J-Bomb Circle","Gold Standard"],
+		"requires": [],
+		"region": "Magma Peak"
+	},
+	{
+		"name": "Marine Quarter - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Marine Quarter"
+	},
+	{
+		"name": "Marine Quarter - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Marine Quarter"
+	},
+	{
+		"name": "Marine Quarter - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Easy","Gold Standard"],
+		"requires": "|Police Car| AND |The American Dream|",
+		"region": "Marine Quarter"
+	},
+	{
+		"name": "Mica Park - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Mica Park"
+	},
+	{
+		"name": "Mica Park - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Mica Park"
+	},
+	{
+		"name": "Mica Park - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Medium","Gold Standard"],
+		"requires": [],
+		"region": "Mica Park"
+	},
+	{
+		"name": "Moraine Chase - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Moraine Chase"
+	},
+	{
+		"name": "Moraine Chase - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Moraine Chase"
+	},
+	{
+		"name": "Moraine Chase - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Medium","Gold Standard"],
+		"requires": "|@Race Vehicles|",
+		"region": "Moraine Chase"
+	},
+	{
+		"name": "Morgan Hall - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Morgan Hall"
+	},
+	{
+		"name": "Morgan Hall - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Morgan Hall"
+	},
+	{
+		"name": "Morgan Hall - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Medium","Gold Standard"],
+		"requires": [],
+		"region": "Morgan Hall"
+	},
+	{
+		"name": "Orion Plaza - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Orion Plaza"
+	},
+	{
+		"name": "Orion Plaza - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Orion Plaza"
+	},
+	{
+		"name": "Orion Plaza - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Easy","Gold Standard"],
+		"requires": [],
+		"region": "Orion Plaza"
+	},
+	{
+		"name": "Saline Watch - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - J-Bomb Circle"],
+		"requires": [],
+		"region": "Saline Watch"
+	},
+	{
+		"name": "Saline Watch - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - J-Bomb Circle"],
+		"requires": [],
+		"region": "Saline Watch"
+	},
+	{
+		"name": "Saline Watch - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - J-Bomb Circle","Gold Standard"],
+		"requires": [],
+		"region": "Saline Watch"
+	},
+	{
+		"name": "Salvage Wharf - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Salvage Wharf"
+	},
+	{
+		"name": "Salvage Wharf - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Salvage Wharf"
+	},
+	{
+		"name": "Salvage Wharf - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Easy","Gold Standard"],
+		"requires": [],
+		"region": "Salvage Wharf"
+	},
+	{
+		"name": "Silver Junction - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Silver Junction"
+	},
+	{
+		"name": "Silver Junction - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Medium"],
+		"requires": [],
+		"region": "Silver Junction"
+	},
+	{
+		"name": "Silver Junction - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Medium","Gold Standard"],
+		"requires": [],
+		"region": "Silver Junction"
+	},
+	{
+		"name": "Skerries - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Skerries"
+	},
+	{
+		"name": "Skerries - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Skerries"
+	},
+	{
+		"name": "Skerries - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Easy","Gold Standard"],
+		"requires": "|@Race Vehicles|",
+		"region": "Skerries"
+	},
+	{
+		"name": "Sleek Streets - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Sleek Streets"
+	},
+	{
+		"name": "Sleek Streets - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Easy"],
+		"requires": "|Skyfall| OR |@Race Vehicles|",
+		"region": "Sleek Streets"
+	},
+	{
+		"name": "Sleek Streets - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Easy","Gold Standard"],
+		"requires": "|@Race Vehicles|",
+		"region": "Sleek Streets"
+	},
+	{
+		"name": "Twilight Foundry - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Twilight Foundry"
+	},
+	{
+		"name": "Twilight Foundry - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games - Easy"],
+		"requires": [],
+		"region": "Twilight Foundry"
+	},
+	{
+		"name": "Twilight Foundry - Gold",
+		"rankpoints": 3,
+		"category": ["Mini-Games - Easy","Gold Standard"],
+		"requires": [],
+		"region": "Twilight Foundry"
+	},
+	{
+		"name": "Mars - Bronze",
+		"rankpoints": 1,
+		"category": ["Universe","Mini-Games"],
+		"requires": [],
+		"region": "Mars"
+	},
+	{
+		"name": "Mars - Silver",
+		"rankpoints": 2,
+		"category": ["Universe","Mini-Games"],
+		"requires": [],
+		"region": "Mars"
+	},
+	{
+		"name": "Mars - Gold",
+		"rankpoints": 3,
+		"category": ["Universe","Mini-Games"],
+		"requires": [],
+		"region": "Mars"
+	},
+	{
+		"name": "Mercury - Bronze",
+		"rankpoints": 1,
+		"category": ["Universe","Mini-Games"],
+		"requires": [],
+		"region": "Mercury"
+	},
+	{
+		"name": "Mercury - Silver",
+		"rankpoints": 2,
+		"category": ["Universe","Mini-Games"],
+		"requires": [],
+		"region": "Mercury"
+	},
+	{
+		"name": "Mercury - Gold",
+		"rankpoints": 3,
+		"category": ["Universe","Mini-Games"],
+		"requires": [],
+		"region": "Mercury"
+	},
+	{
+		"name": "Moon - Bronze",
+		"rankpoints": 1,
+		"category": ["Mini-Games"],
+		"requires": [],
+		"region": "Moon"
+	},
+	{
+		"name": "Moon - Silver",
+		"rankpoints": 2,
+		"category": ["Mini-Games"],
+		"requires": [],
+		"region": "Moon"
+	},
+	{
+		"name": "Moon - Gold",
+		"rankpoints": 3,
+		"category": ["Gold Standard", "Mini-Games"],
+		"requires": [],
+		"region": "Moon"
+	},
+	{
+		"name": "Neptune - Bronze",
+		"rankpoints": 1,
+		"category": ["Universe","Mini-Games"],
+		"requires": [],
+		"region": "Neptune"
+	},
+	{
+		"name": "Neptune - Silver",
+		"rankpoints": 2,
+		"category": ["Universe","Mini-Games"],
+		"requires": [],
+		"region": "Neptune"
+	},
+	{
+		"name": "Neptune - Gold",
+		"rankpoints": 3,
+		"category": ["Universe","Mini-Games"],
+		"requires": [],
+		"region": "Neptune"
+	},
+	{
+		"name": "Venus - Bronze",
+		"rankpoints": 1,
+		"category": ["Universe","Mini-Games"],
+		"requires": [],
+		"region": "Venus"
+	},
+	{
+		"name": "Venus - Silver",
+		"rankpoints": 2,
+		"category": ["Universe","Mini-Games"],
+		"requires": [],
+		"region": "Venus"
+	},
+	{
+		"name": "Venus - Gold",
+		"rankpoints": 3,
+		"category": ["Universe","Mini-Games"],
+		"requires": [],
+		"region": "Venus"
+	},
+	{
+		"name": "Echo Marches - Communication Point - Spire Formation",
+		"region": "Echo Marches",
+		"category": ["Medium Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Echo Marches - Communication Point - River",
+		"region": "Echo Marches",
+		"category": ["Medium Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Beeton Tracks - Communication Point - Next to Start",
+		"region": "Beeton Tracks",
+		"category": ["Medium Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Tempest City - Communication Point - By Scientist",
+		"region": "Tempest City",
+		"category": ["Medium Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Tempest City - Scientist",
+		"region": "Tempest City",
+		"category": ["Medium Levels","Scientists"],
+		"requires": [],
+		"place_item": ["Scientist"]
+	},
+	{
+		"name": "Shuttle Gully - Communication Point",
+		"region": "Shuttle Gully",
+		"category": ["Medium Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Outland Farm - Communication Point - Starting Path Alcove",
+		"region": "Outland Farm",
+		"category": ["Medium Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Outland Farm - Communication Point - Behind Carrier Start",
+		"region": "Outland Farm",
+		"category": ["Medium Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Corvine Bluff - Communication Point",
+		"region": "Corvine Bluff",
+		"category": ["Communication Points","Mini-Games - Medium"],
+		"requires": []
+	},
+	{
+		"name": "Ebony Coast - Communication Point - Carrier Start",
+		"region": "Ebony Coast",
+		"category": ["Medium Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"region": "Ebony Coast",
+		"name": "Ebony Coast - Scientist",
+		"category": ["Medium Levels","Scientists"],
+		"requires": "|J-Bomb|",
+		"place_item": ["Scientist"]
+	},
+	{
+		"name": "Ironstone Mine - Scientist",
+		"region": "Ironstone Mine",
+		"category": ["Medium Levels","Scientists"],
+		"requires": "|Crane Operator Licence|",
+		"place_item": ["Scientist"]
+	},
+	{
+		"name": "Geode Square - Communication Point",
+		"region": "Geode Square",
+		"category": ["Communication Points","Mini-Games - J-Bomb Circle"],
+		"requires": []
+	},
+	{
+		"name": "Lizard Island - Communication Point",
+		"region": "Lizard Island",
+		"category": ["Communication Points","Mini-Games - J-Bomb Circle"],
+		"requires": []
+	},
+	{
+		"name": "Saline Watch - Communication Point",
+		"region": "Saline Watch",
+		"category": ["Communication Points","Mini-Games - J-Bomb Circle"],
+		"requires": []
+	},
+	{
+		"region": "Dagger Pass",
+		"name": "Dagger Pass - Communication Point",
+		"category": ["Communication Points","Mini-Games - J-Bomb Circle"],
+		"requires": []
+	},
+	{
+		"region": "Magma Peak",
+		"name": "Magma Peak - Communication Point",
+		"category": ["Communication Points","Mini-Games - J-Bomb Circle"],
+		"requires": []
+	},
+	{
+		"region": "Crystal Rift",
+		"name": "Crystal Rift - Communication Point - Start",
+		"category": ["Hard Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Crystal Rift - Communication Point - RDU Prize",
+		"region": "Crystal Rift",
+		"category": ["Hard Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Oyster Harbor - Scientist",
+		"region": "Oyster Harbor",
+		"category": ["Hard Levels","Scientists"],
+		"requires": [],
+		"place_item": ["Scientist"]
+	},
+	{
+		"name": "Oyster Harbor - Communication Point",
+		"region": "Oyster Harbor",
+		"category": ["Hard Levels","Communication Points"],
+		"requires": []
+	},
+	{
+		"name": "Glory Crossing - Scientist",
+		"region": "Glory Crossing",
+		"category": ["Hard Levels","Scientists"],
+		"requires": [],
+		"place_item": ["Scientist"]
+	},
+	{
+		"name": "Shuttle Clear - City Cleared",
+		"region": "Shuttle Clear",
+		"category": ["Hard Levels"],
+		"requires": "|Backlash| AND |Thunderfist|"
+	},
+
+	  {
+    "name": "Backlash - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "J-Bomb - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sideswipe - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Skyfall - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Thunderfist - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Argent Towers - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Argent Towers - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Argent Towers - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Argent Towers - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Blackridge Works - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Blackridge Works - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Blackridge Works - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Blackridge Works - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Carrick Point - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Carrick Point - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Carrick Point - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Carrick Point - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Havoc District - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Havoc District - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Havoc District - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Havoc District - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Simian Acres - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Simian Acres - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Simian Acres - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Simian Acres - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Beeton Tracks - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Beeton Tracks - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Beeton Tracks - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Beeton Tracks - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Cromlech Court - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Cromlech Court - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Cromlech Court - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Cromlech Court - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ebony Coast - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ebony Coast - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ebony Coast - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ebony Coast - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Echo Marches - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Echo Marches - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Echo Marches - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Echo Marches - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ironstone Mine - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ironstone Mine - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ironstone Mine - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ironstone Mine - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Outland Farm - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Outland Farm - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Outland Farm - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Outland Farm - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shuttle Gully - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shuttle Gully - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shuttle Gully - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shuttle Gully - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Tempest City - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Tempest City - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Tempest City - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Tempest City - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Angel City - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Angel City - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Angel City - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Angel City - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Crystal Rift - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Crystal Rift - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Crystal Rift - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Crystal Rift - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Diamond Sands - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Diamond Sands - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Diamond Sands - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Diamond Sands - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ember Hamlet - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ember Hamlet - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ember Hamlet - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ember Hamlet - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Glory Crossing - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Glory Crossing - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Glory Crossing - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Glory Crossing - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Obsidian Mile - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Obsidian Mile - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Obsidian Mile - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Obsidian Mile - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Oyster Harbor - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Oyster Harbor - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Oyster Harbor - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Oyster Harbor - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Baboon Catacomb - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Bison Ridge - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Cobalt Quarry - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Cooter Creek - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Corvine Bluff - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Dagger Pass - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Dark Heartland - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Falchion Field - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Geode Square - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Gibbon's Gate - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Glander's Ranch - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Jade Plateau - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Kipling Plant - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Lizard Island - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Magma Peak - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Marine Quarter - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Mars - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Mercury - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Mica Park - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Moon - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Moraine Chase - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Morgan Hall - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Neptune - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Orion Plaza - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Saline Watch - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Salvage Wharf - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shuttle Clear - Bronze",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shuttle Clear - Silver",
+    "rankpoints": 2,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shuttle Clear - Gold",
+    "rankpoints": 3,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shuttle Clear - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Silver Junction - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Skerries - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sleek Streets - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Twilight Foundry - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Venus - Platinum",
+    "rankpoints": 1,
+    "region": "Time Attack",
+    "category": [
+      "Time Attack",
+      "Platinum Medals"
+    ],
+    "requires": []
+  },
+
+	{
+		"name": "Rank 1 - Trained Crusher",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(12)}"
+	},
+	{
+		"name": "Rank 2 - Experienced Ravager",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(24)}"
+	},
+	{
+		"name": "Rank 3 - Decorated Damager",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(36)}"
+	},
+	{
+		"name": "Rank 4 - Professional Razer",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(48)}"
+	},
+	{
+		"name": "Rank 5 - Expert Destroyer",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(60)}"
+	},
+	{
+		"name": "Rank 6 - Gifted Ruiner",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(72)}"
+	},
+	{
+		"name": "Rank 7 - Accomplished Conqueror",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(84)}"
+	},
+	{
+		"name": "Rank 8 - Master Despoiler",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(96)}"
+	},
+	{
+		"name": "Rank 9 - Demolition Fanatic",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(108)}"
+	},
+	{
+		"name": "Rank 10 - Grand Eradicator",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(120)}"
+	},
+	{
+		"name": "Rank 11 - Heavy Duty Waster",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(132)}"
+	},
+	{
+		"name": "Rank 12 - Total Pulverizer",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(144)}"
+	},
+	{
+		"name": "Rank 13 - Champion Ransacker",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(156)}"
+	},
+	{
+		"name": "Rank 14 - Mechanical Maestro",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(168)}"
+	},
+	{
+		"name": "Rank 15 - Chief Obliterator",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(180)}"
+	},
+	{
+		"name": "Rank 16 - Commanding Desolator",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(192)}"
+	},
+	{
+		"name": "Rank 17 - Supreme Devastator",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(204)}"
+	},
+	{
+		"name": "Rank 18 - Ultimate Annihilator",
+		"region": "Rankings",
+		"category": ["Rankings"],
+		"requires": "{rankPoints(216)}"
+	},
+	{
+		"name": "Rank 19 - Leveling Legend",
+		"region": "Rankings",
+		"category": ["Rankings", "Rankings (Universe)"],
+		"requires": "{rankPoints(228)}"
+	},
+	{
+		"name": "Rank 20 - Destructive Psychopath",
+		"region": "Rankings",
+		"category": ["Rankings", "Rankings (Universe)", "Rankings (Time Attack)"],
+		"requires": "{rankPoints(240)}"
+	},
+	{
+		"name": "Rank 21 - Mindless Desecrator",
+		"region": "Rankings",
+		"category": ["Rankings", "Rankings (Universe)", "Rankings (Time Attack)"],
+		"requires": "{rankPoints(252)}"
+	},
+	{
+		"name": "Rank 22 - Hysterical Claustrophobe",
+		"region": "Rankings",
+		"category": ["Rankings", "Rankings (Universe)", "Rankings (Time Attack)"],
+		"requires": "{rankPoints(264)}"
+	},
+	{
+		"name": "Rank 23 - Uncontrollable Madman",
+		"region": "Rankings",
+		"category": ["Rankings", "Rankings (Universe)", "Rankings (Time Attack)"],
+		"requires": "{rankPoints(276)}"
+	},
+	{
+		"name": "Rank 24 - World Class Megalomaniac",
+		"region": "Rankings",
+		"category": ["Rankings", "Rankings (Universe)", "Rankings (Time Attack)"],
+		"requires": "{rankPoints(288)}"
+	},
+	{
+		"name": "Rank 25 - Captain of Carnage",
+		"region": "Rankings",
+		"category": ["Rankings", "Rankings (Universe)", "Rankings (Time Attack)"],
+		"requires": "{rankPoints(300)}"
+	},
+	{
+		"name": "Rank 26 - Single Minded Chaosmonger",
+		"region": "Rankings",
+		"category": ["Rankings", "Rankings (Universe)", "Rankings (Time Attack)"],
+		"requires": "{rankPoints(312)}"
+	},
+	{
+		"name": "Rank 27 - Grand High Slaughtermaster",
+		"region": "Rankings",
+		"category": ["Rankings", "Rankings (Universe)", "Rankings (Time Attack)"],
+		"requires": "{rankPoints(324)}"
+	},
+	{
+		"name": "Rank 28 - Lunatic Lord of Havoc",
+		"region": "Rankings",
+		"category": ["Rankings", "Rankings (Universe)", "Rankings (Time Attack)"],
+		"requires": "{rankPoints(336)}"
+	},
+	{
+		"name": "Rank 29 - Armageddon Adept",
+		"region": "Rankings",
+		"category": ["Rankings", "Rankings (Universe)", "Rankings (Time Attack)"],
+		"requires": "{rankPoints(348)}"
+	},
+	{
+		"name": "Rank 30 - You Can Stop Now.",
+		"region": "Rankings",
+		"category": ["Rankings", "Rankings (Universe)", "Rankings (Time Attack)"],
+		"requires": "{rankPoints(354)}"
+	},
+	{
+		"name": "Victory - Shuttle Clear",
+		"region": "Shuttle Clear",
+		"category": ["Victory Condition"],
+		"place_item": ["Victory Objective Complete!"]
+	},
+	{
+		"name": "Victory - Gold Standard",
+		"region": "Gold Standard",
+		"category": ["Victory Condition"],
+		"place_item": ["Victory Objective Complete!"]
+	},
+	{
+		"name": "Victory - Solar System",
+		"region": "Neptune",
+		"category": ["Victory Condition"],
+		"place_item": ["Victory Objective Complete!"]
+	},
+	{
+		"name": "Victory - Time Attack Gold",
+		"region": "Time Attack",
+		"category": ["Victory Condition"],
+		"requires": "[Backlash - Gold] AND [J-Bomb - Gold] AND [Sideswipe - Gold] AND [Skyfall - Gold] AND [Thunderfist - Gold] AND [Argent Towers - Gold] AND [Blackridge Works - Gold] AND [Carrick Point - Gold] AND [Havoc District - Gold] AND [Simian Acres - Gold] AND [Beeton Tracks - Gold] AND [Cromlech Court - Gold] AND [Ebony Coast - Gold] AND [Echo Marches - Gold] AND [Ironstone Mine - Gold] AND [Outland Farm - Gold] AND [Shuttle Gully - Gold] AND [Tempest City - Gold] AND [Angel City - Gold] AND [Crystal Rift - Gold] AND [Diamond Sands - Gold] AND [Ember Hamlet - Gold] AND [Glory Crossing - Gold] AND [Obsidian Mile - Gold] AND [Oyster Harbor - Gold] AND [Baboon Catacomb - Gold] AND [Bison Ridge - Gold] AND [Cobalt Quarry - Gold] AND [Cooter Creek - Gold] AND [Corvine Bluff - Gold] AND [Dagger Pass - Gold] AND [Dark Heartland - Gold] AND [Falchion Field - Gold] AND [Geode Square - Gold] AND [Gibbon's Gate - Gold] AND [Glander's Ranch - Gold] AND [Jade Plateau - Gold] AND [Kipling Plant - Gold] AND [Lizard Island - Gold] AND [Magma Peak - Gold] AND [Marine Quarter - Gold] AND [Mars - Gold] AND [Mercury - Gold] AND [Mica Park - Gold] AND [Moon - Gold] AND [Moraine Chase - Gold] AND [Morgan Hall - Gold] AND [Neptune - Gold] AND [Orion Plaza - Gold] AND [Saline Watch - Gold] AND [Salvage Wharf - Gold] AND [Shuttle Clear - Gold] AND [Silver Junction - Gold] AND [Skerries - Gold] AND [Sleek Streets - Gold] AND [Twilight Foundry - Gold] AND [Venus - Gold]",
+		"place_item": ["Victory Objective Complete!"]
+	},
+	{
+		"name": "Victory - You Can Stop Now",
+		"region": "Time Attack",
+		"category": ["Victory Condition"],
+		"requires": "{rankPoints(354)}",
+		"place_item": ["Victory Objective Complete!"]
+	},
+	{
+		"name": "FINISH!",
+		"region": "Win Condition",
+		"category": [],
+		"victory": true,
+		"requires": "|Victory Objective Complete!|"
+	}
+]

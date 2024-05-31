@@ -1,0 +1,7 @@
+
+	{
+	"game": "BlastCorps",
+	"creator": "Splatsune",
+	"filler_item_name": "No trouble at all!",
+	"starting_items": [{ "items": ["Bulldozer"], "random": 1 }]
+	}
