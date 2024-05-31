@@ -60,7 +60,6 @@ def carrierLevelsCleared(world: World, multiworld: MultiWorld, state: Collection
 
 def carrierCleared(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
     checked = set()
-    checked.update(f"{level}")
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
