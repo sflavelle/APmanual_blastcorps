@@ -60,18 +60,19 @@ def carrierLevelsCleared(world: World, multiworld: MultiWorld, state: Collection
 
 def carrierCleared(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
     checked = set()
+    checked.update(f"{level}")
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
-                if location.name == level: checked.add(location)
+                if location.name == f"{level} - Carrier Clear": checked.add(location)
     return checked.issubset(state.locations_checked)
 
-def locationChecked(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
+def locationChecked(world: World, multiworld: MultiWorld, state: CollectionState, player: int, loc: str):
     checked = set()
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
-                if location.name == level: checked.add(location)
+                if location.name == loc: checked.add(location)
     return checked.issubset(state.locations_checked)
 
 def rankPoints(world: World, multiworld: MultiWorld, state: CollectionState, player: int, points: str):
