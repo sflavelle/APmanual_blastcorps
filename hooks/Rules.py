@@ -1,6 +1,6 @@
 from typing import Optional
 from worlds.AutoWorld import World
-from ..Helpers import clamp, get_items_with_value
+from ..Helpers import clamp, get_items_with_value, get_option_value
 from BaseClasses import MultiWorld, CollectionState
 
 from ..Data import location_table
@@ -56,7 +56,7 @@ def carrierLevelsCleared(world: World, multiworld: MultiWorld, state: Collection
             for location in list(region.locations):
                 if location.name in carrierLocations:
                     cleared.add(location)
-                    
+
     return all(location.can_reach(state) for location in cleared)
 
 def carrierCleared(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
@@ -75,13 +75,70 @@ def locationChecked(world: World, multiworld: MultiWorld, state: CollectionState
                 if location.name == loc: checked.add(location)
     return all(location.can_reach(state) for location in checked)
 
+def goldsSatisfied(world: World, multiworld: MultiWorld, state: CollectionState, player: int, tier: str):
+
+        carrierLevels = [
+            "Argent Towers", "Blackridge Works", "Carrick Point",
+            "Havoc District", "Simian Acres", "Beeton Tracks",
+            "Cromlech Court", "Ebony Coast", "Echo Marches",
+            "Ironstone Mine", "Outland Farm", "Shuttle Gully",
+            "Tempest City", "Angel City", "Crystal Rift",
+            "Diamond Sands", "Ember Hamlet", "Glory Crossing",
+            "Obsidian Mile", "Oyster Harbor"
+            ]
+
+        minigameLevels = [
+              "Backlash", "J-Bomb", "Sideswipe", "Skyfall",
+              "Thunderfist", "Baboon Catacomb", "Bison Ridge",
+              "Cobalt Quarry", "Cooter Creek", "Corvine Bluff",
+              "Dagger Pass", "Dark Heartland", "Falchion Field",
+              "Geode Square", "Gibbon's Gate", "Glander's Ranch",
+              "Jade Plateau", "Kipling Plant", "Lizard Island",
+              "Magma Peak", "Marine Quarter", "Mars", "Mercury",
+              "Mica Park", "Moon", "Moraine Chase", "Morgan Hall",
+              "Neptune", "Orion Plaza", "Saline Watch",
+              "Salvage Wharf", "Shuttle Clear", "Silver Junction",
+              "Skerries", "Sleek Streets", "Twilight Foundry",
+              "Venus"
+            ]
+
+        # tier options: goldstandard, solarsystem
+        if tier == "gold_standard":
+            for planet in ["Mars", "Mercury", "Venus", "Neptune"]:
+                minigameLevels.remove(planet)
+
+        # Create a new list, of all the locations that need to be checked
+        locNamesToCheck = []
+        for level in carrierLevels:
+            locNamesToCheck.append(f"{level} - Carrier Clear")
+            locNamesToCheck.append(f"{level} - Buildings Clear")
+            locNamesToCheck.append(f"{level} - RDUs Clear")
+            locNamesToCheck.append(f"{level} - Survivors Clear")
+        for level in minigameLevels:
+            locNamesToCheck.append(f"{level} - Gold")
+
+        # Finally, retrieve the corresponding Location objects
+        locsToCheck = set()
+        for region in multiworld.regions:
+            if region.player == player:
+                for location in list(region.locations):
+                    if location.name in locNamesToCheck: locsToCheck.add(location)
+        return all(location.can_reach(state) for location in locsToCheck)
+
 def rankPoints(world: World, multiworld: MultiWorld, state: CollectionState, player: int, points: str):
     """Check if the required rank can be reached with the current state"""
-    statePoints = 0
-    checked = set()
-    locsDefined = location_table
-    locsChecked = state.locations_checked
+    statePoints: int = 0
 
+    locsDefined = location_table
+    locsChecked = set()
+
+    # First grab all the locations that can be reached at this state
+    for region in multiworld.regions:
+        if region.player == player:
+            for location in list(region.locations):
+                if location.can_reach(state): locsChecked.add(location)
+
+    # Now tally up the points the player should have
     for cLoc in locsChecked:
         for tLoc in locsDefined:
             if tLoc["name"] == cLoc["name"]:

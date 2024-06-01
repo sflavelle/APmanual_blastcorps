@@ -40,7 +40,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     locationNamesToRemove = ["Victory - Shuttle Clear", "Victory - Gold Standard", "Victory - Solar System", "Victory - Time Attack Gold", "Victory - You Can Stop Now"] # List of location names
 
     # Get the chosen Goal
-    winCondition = get_option_value(multiworld, player, "goal")
+    winCondition = get_option_value(multiworld, player, "win_condition")
     # Remove the unchosen goals from the location list
     del locationNamesToRemove[winCondition]
 

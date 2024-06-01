@@ -39,7 +39,7 @@ class GoalCondition(Choice):
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
-    options["goal"] = GoalCondition
+    options["win_condition"] = GoalCondition
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

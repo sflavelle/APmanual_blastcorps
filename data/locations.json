@@ -2878,12 +2878,14 @@
 		"name": "Victory - Gold Standard",
 		"region": "Gold Standard",
 		"category": ["Victory Condition"],
+		"requires": "{goldsSatisfied(gold_standard)}",
 		"place_item": ["Victory Objective Complete!"]
 	},
 	{
 		"name": "Victory - Solar System",
 		"region": "Neptune",
 		"category": ["Victory Condition"],
+		"requires": "{goldsSatisfied(solar_system)}",
 		"place_item": ["Victory Objective Complete!"]
 	},
 	{

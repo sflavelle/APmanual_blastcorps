@@ -214,7 +214,7 @@
 	},
 	"Gold Standard":	{
 		"connects_to": ["Mercury"],
-		"requires": ""
+		"requires": "{goldsSatisfied(goldstandard)}"
 	},
 	"Mercury": 	{
 		"connects_to": ["Venus"],
@@ -237,7 +237,7 @@
 		"requires": []
 	},
 	"Time Attack": {
-		"requires": ""
+		"requires": "{goldsSatisfied(solar_system)}"
 	},
 	"Win Condition": {
 		"requires": "|Victory Objective Complete!|"
