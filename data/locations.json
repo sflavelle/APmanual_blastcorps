@@ -1304,105 +1304,105 @@
 	{
 		"name": "Mars - Bronze",
 		"rankpoints": 1,
-		"category": ["Universe","Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Mars"
 	},
 	{
 		"name": "Mars - Silver",
 		"rankpoints": 2,
-		"category": ["Universe","Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Mars"
 	},
 	{
 		"name": "Mars - Gold",
 		"rankpoints": 3,
-		"category": ["Universe","Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Mars"
 	},
 	{
 		"name": "Mercury - Bronze",
 		"rankpoints": 1,
-		"category": ["Universe","Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Mercury"
 	},
 	{
 		"name": "Mercury - Silver",
 		"rankpoints": 2,
-		"category": ["Universe","Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Mercury"
 	},
 	{
 		"name": "Mercury - Gold",
 		"rankpoints": 3,
-		"category": ["Universe","Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Mercury"
 	},
 	{
 		"name": "Moon - Bronze",
 		"rankpoints": 1,
-		"category": ["Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Moon"
 	},
 	{
 		"name": "Moon - Silver",
 		"rankpoints": 2,
-		"category": ["Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Moon"
 	},
 	{
 		"name": "Moon - Gold",
 		"rankpoints": 3,
-		"category": ["Gold Standard", "Mini-Games"],
+		"category": ["Gold Standard", "Universe"],
 		"requires": [],
 		"region": "Moon"
 	},
 	{
 		"name": "Neptune - Bronze",
 		"rankpoints": 1,
-		"category": ["Universe","Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Neptune"
 	},
 	{
 		"name": "Neptune - Silver",
 		"rankpoints": 2,
-		"category": ["Universe","Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Neptune"
 	},
 	{
 		"name": "Neptune - Gold",
 		"rankpoints": 3,
-		"category": ["Universe","Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Neptune"
 	},
 	{
 		"name": "Venus - Bronze",
 		"rankpoints": 1,
-		"category": ["Universe","Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Venus"
 	},
 	{
 		"name": "Venus - Silver",
 		"rankpoints": 2,
-		"category": ["Universe","Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Venus"
 	},
 	{
 		"name": "Venus - Gold",
 		"rankpoints": 3,
-		"category": ["Universe","Mini-Games"],
+		"category": ["Universe"],
 		"requires": [],
 		"region": "Venus"
 	},
