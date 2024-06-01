@@ -109,13 +109,20 @@ def goldsSatisfied(world: World, multiworld: MultiWorld, state: CollectionState,
 
         # Create a new list, of all the locations that need to be checked
         locNamesToCheck = []
-        for level in carrierLevels:
-            locNamesToCheck.append(f"{level} - Carrier Clear")
-            locNamesToCheck.append(f"{level} - Buildings Clear")
-            locNamesToCheck.append(f"{level} - RDUs Clear")
-            locNamesToCheck.append(f"{level} - Survivors Clear")
-        for level in minigameLevels:
-            locNamesToCheck.append(f"{level} - Gold")
+        if tier not in ["time_attack_gold", "you_can_stop_now"]:
+            for level in carrierLevels:
+                locNamesToCheck.append(f"{level} - Carrier Clear")
+                locNamesToCheck.append(f"{level} - Buildings Clear")
+                locNamesToCheck.append(f"{level} - RDUs Clear")
+                locNamesToCheck.append(f"{level} - Survivors Clear")
+            for level in minigameLevels:
+                locNamesToCheck.append(f"{level} - Gold")
+        else:
+            for level in carrierLevels + minigameLevels:
+                requiredMedal = ""
+                if tier == "time_attack_gold": requiredMedal = "Gold"
+                else: requiredMedal = "Platinum"
+                locNamesToCheck.append(f"{level} - {requiredMedal}")
 
         # Finally, retrieve the corresponding Location objects
         locsToCheck = set()
@@ -123,6 +130,7 @@ def goldsSatisfied(world: World, multiworld: MultiWorld, state: CollectionState,
             if region.player == player:
                 for location in list(region.locations):
                     if location.name in locNamesToCheck: locsToCheck.add(location)
+
         return all(location.can_reach(state) for location in locsToCheck)
 
 def rankPoints(world: World, multiworld: MultiWorld, state: CollectionState, player: int, points: str):

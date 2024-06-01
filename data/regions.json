@@ -210,11 +210,11 @@
 	},
 	"Moon": 	{
 		"connects_to": ["Gold Standard"],
-		"requires": "|Backlash|"
+		"requires": "|Backlash| AND |Space Operations Clearance|"
 	},
 	"Gold Standard":	{
 		"connects_to": ["Mercury"],
-		"requires": "{goldsSatisfied(goldstandard)}"
+		"requires": "{goldsSatisfied(gold_standard)}"
 	},
 	"Mercury": 	{
 		"connects_to": ["Venus"],
@@ -229,12 +229,15 @@
 		"requires": "|Backlash|"
 	},
 	"Neptune": 	{
-		"connects_to": ["Time Attack"],
+		"connects_to": ["Time Attack", "Solar System"],
 		"requires": "|Backlash|"
 	},
 	"Rankings":	{
 		"connects_to": [],
 		"requires": []
+	},
+	"Solar System": {
+		"requires": "{goldsSatisfied(solar_system)}"
 	},
 	"Time Attack": {
 		"requires": "{goldsSatisfied(solar_system)}"

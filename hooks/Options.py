@@ -33,7 +33,7 @@ class GoalCondition(Choice):
     option_shuttle_clear = 0
     option_gold_standard = 1
     option_solar_system = 2
-    option_gold_time_attack = 3
+    option_time_attack_gold = 3
     option_you_can_stop_now = 4
     default = 0
 

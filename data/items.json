@@ -114,37 +114,37 @@
 		"progression": true
 	},
 	{
-		"count":25,
+		"count":30,
 		"name": "Time to get movin'!",
 		"category": []
 	},
 	{
-		"count":25,
+		"count":30,
 		"name": "Can you keep this up?",
 		"category": []
 	},
 	{
-		"count": 25,
+		"count": 30,
 		"name": "Is this such a good idea?",
 		"category": []
 	},
 	{
-		"count": 25,
+		"count": 30,
 		"name": "You got the hang of it.",
 		"category": []
 	},
 	{
-		"count": 25,
+		"count": 30,
 		"name": "You're just trying to impress me!",
 		"category": []
 	},
 	{
-		"count": 25,
+		"count": 30,
 		"name": "You're just lucky!",
 		"category": []
 	},
 	{
-		"count": 25,
+		"count": 30,
 		"name": "Try something else.",
 		"category": []
 	}

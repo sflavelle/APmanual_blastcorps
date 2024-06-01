@@ -2878,28 +2878,26 @@
 		"name": "Victory - Gold Standard",
 		"region": "Gold Standard",
 		"category": ["Victory Condition"],
-		"requires": "{goldsSatisfied(gold_standard)}",
 		"place_item": ["Victory Objective Complete!"]
 	},
 	{
 		"name": "Victory - Solar System",
-		"region": "Neptune",
+		"region": "Solar System",
 		"category": ["Victory Condition"],
-		"requires": "{goldsSatisfied(solar_system)}",
 		"place_item": ["Victory Objective Complete!"]
 	},
 	{
 		"name": "Victory - Time Attack Gold",
 		"region": "Time Attack",
 		"category": ["Victory Condition"],
-		"requires": "[Backlash - Gold] AND [J-Bomb - Gold] AND [Sideswipe - Gold] AND [Skyfall - Gold] AND [Thunderfist - Gold] AND [Argent Towers - Gold] AND [Blackridge Works - Gold] AND [Carrick Point - Gold] AND [Havoc District - Gold] AND [Simian Acres - Gold] AND [Beeton Tracks - Gold] AND [Cromlech Court - Gold] AND [Ebony Coast - Gold] AND [Echo Marches - Gold] AND [Ironstone Mine - Gold] AND [Outland Farm - Gold] AND [Shuttle Gully - Gold] AND [Tempest City - Gold] AND [Angel City - Gold] AND [Crystal Rift - Gold] AND [Diamond Sands - Gold] AND [Ember Hamlet - Gold] AND [Glory Crossing - Gold] AND [Obsidian Mile - Gold] AND [Oyster Harbor - Gold] AND [Baboon Catacomb - Gold] AND [Bison Ridge - Gold] AND [Cobalt Quarry - Gold] AND [Cooter Creek - Gold] AND [Corvine Bluff - Gold] AND [Dagger Pass - Gold] AND [Dark Heartland - Gold] AND [Falchion Field - Gold] AND [Geode Square - Gold] AND [Gibbon's Gate - Gold] AND [Glander's Ranch - Gold] AND [Jade Plateau - Gold] AND [Kipling Plant - Gold] AND [Lizard Island - Gold] AND [Magma Peak - Gold] AND [Marine Quarter - Gold] AND [Mars - Gold] AND [Mercury - Gold] AND [Mica Park - Gold] AND [Moon - Gold] AND [Moraine Chase - Gold] AND [Morgan Hall - Gold] AND [Neptune - Gold] AND [Orion Plaza - Gold] AND [Saline Watch - Gold] AND [Salvage Wharf - Gold] AND [Shuttle Clear - Gold] AND [Silver Junction - Gold] AND [Skerries - Gold] AND [Sleek Streets - Gold] AND [Twilight Foundry - Gold] AND [Venus - Gold]",
+		"requires": "{goldsSatisfied(time_attack_gold)}",
 		"place_item": ["Victory Objective Complete!"]
 	},
 	{
 		"name": "Victory - You Can Stop Now",
 		"region": "Time Attack",
 		"category": ["Victory Condition"],
-		"requires": "{rankPoints(354)}",
+		"requires": "{rankPoints(354)} AND {goldsSatisfied(you_can_stop_now)}",
 		"place_item": ["Victory Objective Complete!"]
 	},
 	{

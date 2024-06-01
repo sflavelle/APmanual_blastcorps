@@ -1,7 +1,4 @@
 {
-    "Universe": {
-        "yaml_option": ["all_levels"]
-    },
     "Time Attack": {
         "yaml_option": ["time_attack"]
     },
