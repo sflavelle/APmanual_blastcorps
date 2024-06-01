@@ -54,9 +54,10 @@ def carrierLevelsCleared(world: World, multiworld: MultiWorld, state: Collection
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
-                if location.name in carrierLocations: cleared.add(location)
-
-    return cleared.issubset(state.locations_checked)
+                if location.name in carrierLocations:
+                    cleared.add(location)
+                    
+    return all(location.can_reach(state) for location in cleared)
 
 def carrierCleared(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
     checked = set()
@@ -64,7 +65,7 @@ def carrierCleared(world: World, multiworld: MultiWorld, state: CollectionState,
         if region.player == player:
             for location in list(region.locations):
                 if location.name == f"{level} - Carrier Clear": checked.add(location)
-    return checked.issubset(state.locations_checked)
+    return all(location.can_reach(state) for location in checked)
 
 def locationChecked(world: World, multiworld: MultiWorld, state: CollectionState, player: int, loc: str):
     checked = set()
@@ -72,13 +73,14 @@ def locationChecked(world: World, multiworld: MultiWorld, state: CollectionState
         if region.player == player:
             for location in list(region.locations):
                 if location.name == loc: checked.add(location)
-    return checked.issubset(state.locations_checked)
+    return all(location.can_reach(state) for location in checked)
 
 def rankPoints(world: World, multiworld: MultiWorld, state: CollectionState, player: int, points: str):
     """Check if the required rank can be reached with the current state"""
     statePoints = 0
     checked = set()
     locsDefined = location_table
+    locsChecked = state.locations_checked
 
     for cLoc in locsChecked:
         for tLoc in locsDefined:

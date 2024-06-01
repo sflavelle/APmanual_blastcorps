@@ -206,7 +206,7 @@
 	},
 	"Shuttle Clear": 	{
 		"connects_to": ["Moon"],
-		"requires": "{carrierLevelsCleared(all)} AND |Scientist:6| AND |Backlash| AND |Thunderfist|"
+		"requires": "{carrierLevelsCleared(hard)} AND |Scientist:6| AND |Backlash| AND |Thunderfist|"
 	},
 	"Moon": 	{
 		"connects_to": ["Gold Standard"],
