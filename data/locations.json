@@ -231,7 +231,7 @@
 		"category": [
 			"Vehicle Unlocks"
 		],
-		"requires": "|Train Operator Licence| AND |Explosives Handling Licence|"
+		"requires": "|Train Operator Licence| AND |Explosives Handling Licence| AND |Police Car|"
 	},
 	{
 		"name": "Crystal Rift - A-Team Van",
