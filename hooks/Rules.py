@@ -133,6 +133,49 @@ def goldsSatisfied(world: World, multiworld: MultiWorld, state: CollectionState,
 
         return all(location.can_reach(state) for location in locsToCheck)
 
+def canUseVehicle(world: World, multiworld: MultiWorld, state: CollectionState, player: int, vehicle: str):
+    """Check whether a given vehicle is received, and whether the player can access any of the places that unlock it in-game.
+    This is only really needed for race vehicles."""
+
+    unlockLocations = []
+
+    if vehicle == "Police Car":
+        unlockLocations.extend(
+            [
+                "Argent Towers - Police Car",
+                "Beeton Tracks - Police Car"
+            ]
+        )
+    elif vehicle == "The American Dream":
+        unlockLocations.extend(
+            [
+                "Simian Acres - American Dream",
+                "Echo Marches - American Dream"
+            ]
+        )
+    elif vehicle == "Muscle Car":
+        unlockLocations.extend(
+            [
+                "Havoc District - Muscle Car",
+                "Echo Marches - Muscle Car"
+            ]
+        )
+    elif vehicle == "A-Team Van":
+        unlockLocations.extend(
+            [
+                "Crystal Rift - A-Team Van"
+            ]
+        )
+
+    # Finally, retrieve the corresponding Location objects
+    locsToCheck = set()
+    for region in multiworld.regions:
+        if region.player == player:
+            for location in list(region.locations):
+                if location.name in unlockLocations: locsToCheck.add(location)
+
+    if state.has(vehicle, player) and any(location.can_reach(state) for location in locsToCheck)
+
 def rankPoints(world: World, multiworld: MultiWorld, state: CollectionState, player: int, points: str):
     """Check if the required rank can be reached with the current state"""
     statePoints: int = 0

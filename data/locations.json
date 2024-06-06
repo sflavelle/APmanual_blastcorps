@@ -907,7 +907,7 @@
 			"Easy Levels",
 			"Vehicle Unlocks"
 		],
-		"requires": "|Train Operator Licence|"
+		"requires": "|Train Operator Licence| AND |The American Dream|"
 	},
 	{
 		"name": "Simian Acres - Train",
@@ -1981,6 +1981,33 @@
 			"Communication Points"
 		],
 		"requires": []
+	},
+	{
+		"name": "Beeton Tracks - Police Car",
+		"region": "Beeton Tracks",
+		"category": [
+			"Medium Levels",
+			"Vehicle Unlocks"
+		],
+		"requires": "|Police Car|"
+	},
+	{
+		"name": "Echo Marches - Muscle Car",
+		"region": "Echo Marches",
+		"category": [
+			"Medium Levels",
+			"Vehicle Unlocks"
+		],
+		"requires": "|Muscle Car|"
+	},
+	{
+		"name": "Echo Marches - American Dream",
+		"region": "Echo Marches",
+		"category": [
+			"Medium Levels",
+			"Vehicle Unlocks"
+		],
+		"requires": "|American Dream|"
 	},
 	{
 		"name": "Tempest City - Communication Point - By Scientist",
