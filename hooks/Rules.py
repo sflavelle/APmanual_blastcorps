@@ -174,7 +174,12 @@ def canUseVehicle(world: World, multiworld: MultiWorld, state: CollectionState, 
             for location in list(region.locations):
                 if location.name in unlockLocations: locsToCheck.add(location)
 
-    if state.has(vehicle, player) and any(location.can_reach(state) for location in locsToCheck)
+    if state.has(vehicle, player) and any(location.can_reach(state) for location in locsToCheck):
+        return True
+    else: return False
+
+def anyRaceVehicle(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
+    return any(canUseVehicle(world, multiworld, state, player, v) for v in ["Police Car", "The American Dream", "Muscle Car", "A-Team Van"])
 
 def rankPoints(world: World, multiworld: MultiWorld, state: CollectionState, player: int, points: str):
     """Check if the required rank can be reached with the current state"""

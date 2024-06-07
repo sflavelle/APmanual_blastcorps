@@ -1125,7 +1125,7 @@
 		"category": [
 			"Mini-Games - Medium"
 		],
-		"requires": "|Skyfall| OR |@Race Vehicles|",
+		"requires": "|Skyfall| OR {anyRaceVehicle()}",
 		"region": "Bison Ridge"
 	},
 	{
@@ -1135,7 +1135,7 @@
 			"Mini-Games - Medium",
 			"Gold Standard"
 		],
-		"requires": "|@Race Vehicles|",
+		"requires": "{anyRaceVehicle()}",
 		"region": "Bison Ridge"
 	},
 	{
@@ -1163,7 +1163,7 @@
 			"Mini-Games - Medium",
 			"Gold Standard"
 		],
-		"requires": "|@Race Vehicles|",
+		"requires": "{anyRaceVehicle()}",
 		"region": "Cobalt Quarry"
 	},
 	{
@@ -1191,7 +1191,7 @@
 			"Mini-Games - Easy",
 			"Gold Standard"
 		],
-		"requires": "|Muscle Car|",
+		"requires": "{canUseVehicle(Muscle Car)}",
 		"region": "Cooter Creek"
 	},
 	{
@@ -1228,7 +1228,7 @@
 			"Mini-Games - Medium",
 			"Gold Standard"
 		],
-		"requires": "|The American Dream| OR |Muscle Car|",
+		"requires": "{canUseVehicle(The American Dream)} OR {canUseVehicle(Muscle Car)}",
 		"region": "Corvine Bluff"
 	},
 	{
@@ -1386,7 +1386,7 @@
 		"category": [
 			"Mini-Games - Medium"
 		],
-		"requires": "|@Race Vehicles|",
+		"requires": "{anyRaceVehicle()}",
 		"region": "Glander's Ranch"
 	},
 	{
@@ -1396,7 +1396,7 @@
 			"Mini-Games - Medium",
 			"Gold Standard"
 		],
-		"requires": "|The American Dream|",
+		"requires": "{canUseVehicle(The American Dream)}",
 		"region": "Glander's Ranch"
 	},
 	{
@@ -1536,7 +1536,7 @@
 			"Mini-Games - Easy",
 			"Gold Standard"
 		],
-		"requires": "|Police Car| AND |The American Dream|",
+		"requires": "{canUseVehicle(Police Car)} AND {canUseVehicle(The American Dream)}",
 		"region": "Marine Quarter"
 	},
 	{
@@ -1592,7 +1592,7 @@
 			"Mini-Games - Medium",
 			"Gold Standard"
 		],
-		"requires": "|@Race Vehicles|",
+		"requires": "{anyRaceVehicle()}",
 		"region": "Moraine Chase"
 	},
 	{
@@ -1778,7 +1778,7 @@
 		"category": [
 			"Mini-Games - Easy"
 		],
-		"requires": "|Skyfall| OR |@Race Vehicles|",
+		"requires": "|Skyfall| OR {anyRaceVehicle()}",
 		"region": "Sleek Streets"
 	},
 	{
@@ -1788,7 +1788,7 @@
 			"Mini-Games - Easy",
 			"Gold Standard"
 		],
-		"requires": "|@Race Vehicles|",
+		"requires": "{anyRaceVehicle()}",
 		"region": "Sleek Streets"
 	},
 	{
@@ -2007,7 +2007,7 @@
 			"Medium Levels",
 			"Vehicle Unlocks"
 		],
-		"requires": "|American Dream|"
+		"requires": "|The American Dream|"
 	},
 	{
 		"name": "Tempest City - Communication Point - By Scientist",
@@ -3011,7 +3011,7 @@
 			"Time Attack",
 			"Platinum Medals"
 		],
-		"requires": []
+		"requires": "{canUseVehicle(The American Dream)} OR {canUseVehicle(Muscle Car)} OR {canUseVehicle(A-Team Van)}"
 	},
 	{
 		"name": "Cobalt Quarry - Platinum",
@@ -3021,7 +3021,7 @@
 			"Time Attack",
 			"Platinum Medals"
 		],
-		"requires": []
+		"requires": "{canUseVehicle(The American Dream)} OR {canUseVehicle(Muscle Car)} OR {canUseVehicle(A-Team Van)}"
 	},
 	{
 		"name": "Cooter Creek - Platinum",
@@ -3031,7 +3031,7 @@
 			"Time Attack",
 			"Platinum Medals"
 		],
-		"requires": []
+		"requires": "{canUseVehicle(The American Dream)} OR {canUseVehicle(Muscle Car)} OR {canUseVehicle(A-Team Van)}"
 	},
 	{
 		"name": "Corvine Bluff - Platinum",
@@ -3041,7 +3041,7 @@
 			"Time Attack",
 			"Platinum Medals"
 		],
-		"requires": []
+		"requires": "{canUseVehicle(The American Dream)} OR {canUseVehicle(Muscle Car)} OR {canUseVehicle(A-Team Van)}"
 	},
 	{
 		"name": "Dagger Pass - Platinum",
@@ -3101,7 +3101,7 @@
 			"Time Attack",
 			"Platinum Medals"
 		],
-		"requires": []
+		"requires": "{canUseVehicle(The American Dream)} OR {canUseVehicle(Muscle Car)} OR {canUseVehicle(A-Team Van)}"
 	},
 	{
 		"name": "Jade Plateau - Platinum",
@@ -3111,7 +3111,7 @@
 			"Time Attack",
 			"Platinum Medals"
 		],
-		"requires": []
+		"requires": "{canUseVehicle(The American Dream)} OR {canUseVehicle(Muscle Car)} OR {canUseVehicle(A-Team Van)}"
 	},
 	{
 		"name": "Kipling Plant - Platinum",
@@ -3151,7 +3151,7 @@
 			"Time Attack",
 			"Platinum Medals"
 		],
-		"requires": []
+		"requires": "{canUseVehicle(The American Dream)} OR {canUseVehicle(Muscle Car)} OR {canUseVehicle(A-Team Van)}"
 	},
 	{
 		"name": "Mars - Platinum",
@@ -3201,7 +3201,7 @@
 			"Time Attack",
 			"Platinum Medals"
 		],
-		"requires": []
+		"requires": "{canUseVehicle(The American Dream)} OR {canUseVehicle(A-Team Van)}"
 	},
 	{
 		"name": "Morgan Hall - Platinum",
@@ -3308,7 +3308,7 @@
 			"Time Attack",
 			"Platinum Medals"
 		],
-		"requires": []
+		"requires": "{anyRaceVehicle()}"
 	},
 	{
 		"name": "Sleek Streets - Platinum",
@@ -3318,7 +3318,7 @@
 			"Time Attack",
 			"Platinum Medals"
 		],
-		"requires": []
+		"requires": "{canUseVehicle(The American Dream)} OR {canUseVehicle(Muscle Car)} OR {canUseVehicle(A-Team Van)}"
 	},
 	{
 		"name": "Twilight Foundry - Platinum",
