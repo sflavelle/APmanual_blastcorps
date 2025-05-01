@@ -31,7 +31,18 @@ from ..Helpers import is_option_enabled, get_option_value
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
-    return False
+    filler_choices = [
+        "Time to get movin'!",
+        "Can you keep this up?",
+        "Is this such a good idea?",
+        "You got the hang of it.",
+        "You're just trying to impress me!",
+        "You're just lucky!",
+        "Try something else.",
+        False
+    ]
+
+    return multiworld.random.choice(filler_choices)
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
