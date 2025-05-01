@@ -173,7 +173,7 @@
 			"Easy Levels",
 			"Building Clears"
 		],
-		"requires": "|Train Operator Licence| AND |Ballista| AND |J-Bomb| AND |Explosives Handling Licence|"
+		"requires": "|Train Operator Licence| AND |Ballista| AND |J-Bomb| AND |TNT Handling Licence|"
 	},
 	{
 		"name": "Argent Towers - RDUs Clear",
@@ -211,7 +211,7 @@
 			"Easy Levels",
 			"Communication Points"
 		],
-		"requires": "|J-Bomb| AND |Train Operator Licence| AND |Ballista| AND |Explosives Handling Licence|"
+		"requires": "|J-Bomb| AND |Train Operator Licence| AND |Ballista| AND |TNT Handling Licence|"
 	},
 	{
 		"name": "Argent Towers - Scientist",
@@ -220,7 +220,7 @@
 			"Easy Levels",
 			"Scientists"
 		],
-		"requires": "|Train Operator Licence| AND |Explosives Handling Licence|",
+		"requires": "|Train Operator Licence| AND |TNT Handling Licence|",
 		"place_item": [
 			"Scientist"
 		]
@@ -231,7 +231,7 @@
 		"category": [
 			"Vehicle Unlocks"
 		],
-		"requires": "|Train Operator Licence| AND |Explosives Handling Licence| AND |Police Car|"
+		"requires": "|Train Operator Licence| AND |TNT Handling Licence| AND |Police Car|"
 	},
 	{
 		"name": "Crystal Rift - A-Team Van",
@@ -308,7 +308,7 @@
 			"Medium Levels",
 			"Carrier Clears"
 		],
-		"requires": []
+		"requires": "|Crane Operator Licence|"
 	},
 	{
 		"name": "Beeton Tracks - Buildings Clear",
@@ -318,7 +318,7 @@
 			"Medium Levels",
 			"Building Clears"
 		],
-		"requires": []
+		"requires": "|Crane Operator Licence|"
 	},
 	{
 		"name": "Beeton Tracks - RDUs Clear",
@@ -338,7 +338,7 @@
 			"Medium Levels",
 			"Survivor Clears"
 		],
-		"requires": []
+		"requires": "|Crane Operator Licence|"
 	},
 	{
 		"name": "Cromlech Court - Carrier Clear",
@@ -567,16 +567,6 @@
 		"category": [
 			"Medium Levels",
 			"RDU Clears"
-		],
-		"requires": []
-	},
-	{
-		"name": "Shuttle Gully - Survivors Clear",
-		"rankpoints": 1,
-		"region": "Shuttle Gully",
-		"category": [
-			"Medium Levels",
-			"Survivor Clears"
 		],
 		"requires": []
 	},

@@ -7,4 +7,4 @@
 - Shuffle Minigames
 - Vehicle Removal (remove vehicles from levels until item received)
 - Destructionsanity
-- Deathlink (triggers 'Collision Imminent', after 3 seconds, explodes carrier)
+- Deathlink (triggers 'Collision Imminent', after 3-5 seconds, explodes carrier)
