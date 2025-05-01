@@ -58,7 +58,7 @@
 	},
 	"Orion Plaza": 	{
 		"connects_to": [],
-		"requires": "|Explosives Handling Licence| AND {locationChecked(Argent Towers - Communication Point - Elevated Platform)}"
+		"requires": "|TNT Handling Licence| AND {locationChecked(Argent Towers - Communication Point - Elevated Platform)}"
 	},
 	"Marine Quarter": 	{
 		"connects_to": [],
@@ -66,7 +66,7 @@
 	},
 	"Beeton Tracks": 	{
 		"connects_to": ["Silver Junction","Ember Hamlet"],
-		"requires": "{carrierLevelsCleared(easy)} AND |Train Operator Licence| AND |Explosives Handling Licence|"
+		"requires": "{carrierLevelsCleared(easy)} AND |Train Operator Licence| AND |TNT Handling Licence|"
 	},
 	"Echo Marches": 	{
 		"connects_to": ["Moraine Chase","Mica Park","Angel City"],
@@ -142,7 +142,7 @@
 	},
 	"Morgan Hall": 	{
 		"connects_to": [],
-		"requires": "|Backlash| AND |Explosives Handling Licence| AND {locationChecked(Ebony Coast - Communication Point - Carrier Start)}"
+		"requires": "|Backlash| AND |TNT Handling Licence| AND {locationChecked(Ebony Coast - Communication Point - Carrier Start)}"
 	},
 	"Diamond Sands": 	{
 		"connects_to": [],
@@ -186,7 +186,7 @@
 	},
 	"Oyster Harbor": 	{
 		"connects_to": ["Gibbon's Gate"],
-		"requires": "{carrierLevelsCleared(medium)} AND |Crane Operator Licence| AND |Explosives Handling Licence| AND |Boat Handling Licence| AND |Ballista|"
+		"requires": "{carrierLevelsCleared(medium)} AND |Crane Operator Licence| AND |TNT Handling Licence| AND |Boat Handling Licence| AND |Ballista|"
 	},
 	"Gibbon's Gate": 	{
 		"connects_to": [],
