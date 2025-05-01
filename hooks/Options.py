@@ -28,7 +28,12 @@ from ..Helpers import is_option_enabled, get_option_value
 #
 
 class GoalCondition(Choice):
-    """Choose your win condition. Shuttle Clear: Finish Shuttle Clear. Gold Standard: Gold every level on Earth and the Moon. Solar System: Gold every level in the solar system (Earth, Moon, Mercury, Venus, Mars, Neptune). Gold Time Attack: Gold on every level in the Time Attack phase. You Can Stop Now: Platinum on every level in the Time Attack phase (considered too difficult for one person by Rareware developers)."""
+    """Choose your win condition. 
+    Shuttle Clear: Finish Shuttle Clear. 
+    Gold Standard: Gold every level on Earth and the Moon. 
+    Solar System: Gold every level in the solar system (Earth, Moon, Mercury, Venus, Mars, Neptune). 
+    Gold Time Attack: Gold on every level in the Time Attack phase. 
+    You Can Stop Now: Platinum on every level in the Time Attack phase (considered too difficult for one person by Rareware developers)."""
     display_name = "Win Condition"
     option_shuttle_clear = 0
     option_gold_standard = 1
