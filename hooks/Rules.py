@@ -57,7 +57,7 @@ def carrierLevelsCleared(world: World, multiworld: MultiWorld, state: Collection
                 if location.name in carrierLocations:
                     cleared.add(location)
 
-    return all(location.can_reach(state) for location in cleared)
+    return all(state.can_reach(location) for location in cleared)
 
 def carrierCleared(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
     checked = set()
@@ -65,7 +65,7 @@ def carrierCleared(world: World, multiworld: MultiWorld, state: CollectionState,
         if region.player == player:
             for location in list(region.locations):
                 if location.name == f"{level} - Carrier Clear": checked.add(location)
-    return all(location.can_reach(state) for location in checked)
+    return all(state.can_reach(location) for location in checked)
 
 def locationChecked(world: World, multiworld: MultiWorld, state: CollectionState, player: int, loc: str):
     checked = set()
@@ -73,7 +73,7 @@ def locationChecked(world: World, multiworld: MultiWorld, state: CollectionState
         if region.player == player:
             for location in list(region.locations):
                 if location.name == loc: checked.add(location)
-    return all(location.can_reach(state) for location in checked)
+    return all(state.can_reach(location) for location in checked)
 
 def goldsSatisfied(world: World, multiworld: MultiWorld, state: CollectionState, player: int, tier: str):
 
@@ -131,7 +131,7 @@ def goldsSatisfied(world: World, multiworld: MultiWorld, state: CollectionState,
                 for location in list(region.locations):
                     if location.name in locNamesToCheck: locsToCheck.add(location)
 
-        return all(location.can_reach(state) for location in locsToCheck)
+        return all(state.can_reach(location) for location in locsToCheck)
 
 def canUseVehicle(world: World, multiworld: MultiWorld, state: CollectionState, player: int, vehicle: str):
     """Check whether a given vehicle is received, and whether the player can access any of the places that unlock it in-game.
@@ -174,7 +174,7 @@ def canUseVehicle(world: World, multiworld: MultiWorld, state: CollectionState, 
             for location in list(region.locations):
                 if location.name in unlockLocations: locsToCheck.add(location)
 
-    if state.has(vehicle, player) and any(location.can_reach(state) for location in locsToCheck):
+    if state.has(vehicle, player) and any(state.can_reach(location) for location in locsToCheck):
         return True
     else: return False
 
@@ -185,19 +185,45 @@ def rankPoints(world: World, multiworld: MultiWorld, state: CollectionState, pla
     """Check if the required rank can be reached with the current state"""
     statePoints: int = 0
 
-    locsDefined = location_table
     locsChecked = set()
 
     # First grab all the locations that can be reached at this state
-    for region in multiworld.regions:
-        if region.player == player:
-            for location in list(region.locations):
-                if location.can_reach(state): locsChecked.add(location)
+    for loc in state.locations_checked:
+        if loc.player == player:
+            locsChecked.add(loc)
 
     # Now tally up the points the player should have
+    # Bronze medals are 1 point, Silver medals are 2 points, Gold medals are 3 points
+    # For whatever reason, Platinums are only 1 point
     for cLoc in locsChecked:
-        for tLoc in locsDefined:
-            if tLoc["name"] == cLoc["name"]:
-                statePoints = statePoints + tLoc.get("rankpoints", 0)
+        if cLoc.name.endswith("- Gold"):
+            statePoints += 3
+            continue
+        elif cLoc.name.endswith("- Silver"):
+            statePoints += 2
+            continue
+        elif cLoc.name.endswith("- Bronze"):
+            statePoints += 1
+            continue
+        elif cLoc.name.endswith("- Platinum"):
+            statePoints += 1
+            continue
+        elif cLoc.name.endswith("- Carrier Clear"):
+            # Carrier Clears are automatic Gold
+            statePoints += 3
+            continue
+        # I don't have a metric for how the second medal works yet,
+        # Other than that doing ALL following clears gives Gold, so
+        # instead I'm going to assume that clearing each stat
+        # ultimately EQUATES to a Gold medal
+        elif cLoc.name.endswith("- Buildings Clear"):
+            statePoints += 1
+            continue
+        elif cLoc.name.endswith("- RDUs Clear"):
+            statePoints += 1
+            continue
+        elif cLoc.name.endswith("- Survivors Clear"):
+            statePoints += 1
+            continue
     return statePoints >= int(points)
 
